@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5103F8621C72011F005A8FDF /* TestVertexData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5103F8611C72011F005A8FDF /* TestVertexData.swift */; };
 		5156BE971C639F42000F99B3 /* BlockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5156BE961C639F42000F99B3 /* BlockData.swift */; };
 		515815131C60F50100D7FE81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515815121C60F50100D7FE81 /* AppDelegate.swift */; };
 		515815151C60F50100D7FE81 /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 515815141C60F50100D7FE81 /* Shader.fsh */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5103F8611C72011F005A8FDF /* TestVertexData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestVertexData.swift; sourceTree = "<group>"; };
 		5156BE961C639F42000F99B3 /* BlockData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockData.swift; sourceTree = "<group>"; };
 		5158150F1C60F50100D7FE81 /* ES2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ES2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		515815121C60F50100D7FE81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -70,11 +72,12 @@
 				515815121C60F50100D7FE81 /* AppDelegate.swift */,
 				515815141C60F50100D7FE81 /* Shader.fsh */,
 				515815161C60F50100D7FE81 /* Shader.vsh */,
-				5165DA451C6250DD002C14DE /* CubeVertexData.swift */,
 				5158151A1C60F50100D7FE81 /* Main.storyboard */,
 				5158151D1C60F50100D7FE81 /* Assets.xcassets */,
 				5158151F1C60F50100D7FE81 /* LaunchScreen.storyboard */,
 				515815221C60F50100D7FE81 /* Info.plist */,
+				5103F8611C72011F005A8FDF /* TestVertexData.swift */,
+				5165DA451C6250DD002C14DE /* CubeVertexData.swift */,
 			);
 			path = ES2;
 			sourceTree = "<group>";
@@ -158,6 +161,7 @@
 				515815131C60F50100D7FE81 /* AppDelegate.swift in Sources */,
 				5165DA461C6250DD002C14DE /* CubeVertexData.swift in Sources */,
 				5156BE971C639F42000F99B3 /* BlockData.swift in Sources */,
+				5103F8621C72011F005A8FDF /* TestVertexData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

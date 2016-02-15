@@ -20,7 +20,7 @@ class CubeData: NSObject {
         
         glGenBuffers(1, &vertexBuffer)
         glBindBuffer(GLenum(GL_ARRAY_BUFFER), vertexBuffer)
-        glBufferData(GLenum(GL_ARRAY_BUFFER), GLsizeiptr(sizeof(GLfloat) * CubeVertexData.count), &CubeVertexData, GLenum(GL_STATIC_DRAW))
+        glBufferData(GLenum(GL_ARRAY_BUFFER), GLsizeiptr(sizeof(GLfloat) * testVertexData.count), &testVertexData, GLenum(GL_STATIC_DRAW))
         
         glEnableVertexAttribArray(GLuint(GLKVertexAttrib.Position.rawValue))
         glVertexAttribPointer(GLuint(GLKVertexAttrib.Position.rawValue), 3, GLenum(GL_FLOAT), GLboolean(GL_FALSE), 20, BUFFER_OFFSET(0))
@@ -34,7 +34,7 @@ class CubeData: NSObject {
     }
             
     func CubeDraw(){
-        glDrawArrays(GLenum(GL_TRIANGLES), 0, GLsizei(CubeVertexData.count/5));
+        glDrawArrays(GLenum(GL_TRIANGLES), 0, GLsizei(testVertexData.count/5));
     }
     
 }
